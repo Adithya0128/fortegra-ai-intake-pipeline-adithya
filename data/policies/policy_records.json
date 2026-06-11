@@ -1,0 +1,112 @@
+[
+  {
+    "policy_number": "POL-10042",
+    "holder_name": "Marcus Webb",
+    "holder_address": "1482 Riverside Dr, Jacksonville, FL 32204",
+    "holder_dob": "1985-03-14",
+    "coverage_type": "comprehensive_collision",
+    "effective_date": "2025-11-01",
+    "expiration_date": "2026-10-31",
+    "status": "active",
+    "deductible": 500,
+    "coverage_limit": 25000,
+    "vehicles_covered": [
+      {
+        "vin": "4T1B11HK5MU012345",
+        "year": 2021,
+        "make": "Toyota",
+        "model": "Camry"
+      }
+    ],
+    "prior_claims": 0,
+    "premium_current": true
+  },
+  {
+    "policy_number": "POL-10031",
+    "holder_name": "Diana Chu",
+    "holder_address": "892 Oak Lane, St. Augustine, FL 32084",
+    "holder_dob": "1990-07-22",
+    "coverage_type": "liability_only",
+    "effective_date": "2025-06-15",
+    "expiration_date": "2026-06-14",
+    "status": "active",
+    "deductible": 1000,
+    "coverage_limit": 15000,
+    "vehicles_covered": [
+      {
+        "vin": "1HGCM82633A004352",
+        "year": 2019,
+        "make": "Honda",
+        "model": "Civic"
+      }
+    ],
+    "prior_claims": 1,
+    "premium_current": true
+  },
+  {
+    "policy_number": "POL-09987",
+    "holder_name": "Robert Tanner",
+    "holder_address": "334 Magnolia Blvd, Orange Park, FL 32065",
+    "holder_dob": "1978-11-05",
+    "coverage_type": "comprehensive_collision",
+    "effective_date": "2024-03-01",
+    "expiration_date": "2025-02-28",
+    "status": "expired",
+    "deductible": 750,
+    "coverage_limit": 20000,
+    "vehicles_covered": [
+      {
+        "vin": "2T1BURHE0JC043821",
+        "year": 2018,
+        "make": "Toyota",
+        "model": "Corolla"
+      }
+    ],
+    "prior_claims": 2,
+    "premium_current": false
+  },
+  {
+    "policy_number": "POL-10018",
+    "holder_name": "Priya Nair",
+    "holder_address": "2201 Beach Blvd, Jacksonville Beach, FL 32250",
+    "holder_dob": "1993-02-17",
+    "coverage_type": "comprehensive_collision",
+    "effective_date": "2026-01-01",
+    "expiration_date": "2026-12-31",
+    "status": "active",
+    "deductible": 250,
+    "coverage_limit": 30000,
+    "vehicles_covered": [
+      {
+        "vin": "5YJSA1DN5DFP14705",
+        "year": 2023,
+        "make": "Tesla",
+        "model": "Model S"
+      }
+    ],
+    "prior_claims": 0,
+    "premium_current": true
+  },
+  {
+    "policy_number": "POL-10055",
+    "holder_name": "James Okafor",
+    "holder_address": "710 Edgewood Ave, Jacksonville, FL 32205",
+    "holder_dob": "1969-08-30",
+    "coverage_type": "liability_only",
+    "effective_date": "2025-09-01",
+    "expiration_date": "2026-08-31",
+    "status": "suspended",
+    "deductible": 1000,
+    "coverage_limit": 10000,
+    "vehicles_covered": [
+      {
+        "vin": "1G1BE5SM7H7142834",
+        "year": 2017,
+        "make": "Chevrolet",
+        "model": "Cruze"
+      }
+    ],
+    "prior_claims": 3,
+    "premium_current": false
+  }
+]

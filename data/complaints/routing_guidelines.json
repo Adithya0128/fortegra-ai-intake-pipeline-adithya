@@ -1,0 +1,49 @@
+{
+  "routing_guidelines": {
+    "version": "2026.1",
+    "description": "Fortegra customer complaint triage and response routing guidelines",
+    "escalation_triggers": {
+      "immediate_supervisor_escalation": [
+        "customer explicitly requests supervisor or manager",
+        "customer threatens legal action or attorney involvement",
+        "customer threatens regulatory complaint (DOI, CFPB, BBB)",
+        "customer expresses intent to cancel or has already cancelled",
+        "complaint involves potential E&O exposure",
+        "complaint references media or social media threats"
+      ],
+      "legal_review_required": [
+        "customer has retained or is consulting an attorney",
+        "complaint references litigation or lawsuit",
+        "complaint involves bodily injury allegation",
+        "complaint references discriminatory treatment"
+      ],
+      "regulatory_flag_required": [
+        "customer states intent to file DOI complaint",
+        "complaint involves a denied claim above $10000",
+        "complaint involves a vulnerable customer (elderly, disability mentioned)",
+        "second complaint from same customer within 90 days"
+      ]
+    },
+    "sentiment_categories": ["furious", "very_upset", "upset", "frustrated", "disappointed", "neutral"],
+    "urgency_levels": {
+      "critical": "Requires response within 4 business hours. Supervisor involvement mandatory.",
+      "high": "Requires response within 24 business hours. Supervisor review recommended.",
+      "standard": "Requires response within 3 business days. Standard adjuster handling.",
+      "low": "Requires response within 5 business days. Standard adjuster handling."
+    },
+    "complaint_categories": [
+      "claim_denial_dispute",
+      "claim_delay",
+      "coverage_misunderstanding",
+      "adjuster_conduct",
+      "billing_dispute",
+      "cancellation_dispute",
+      "general_dissatisfaction"
+    ],
+    "response_tone_guidelines": {
+      "furious_or_very_upset": "Acknowledge frustration immediately and specifically. Do not be defensive. Commit to specific next steps with timeframes. Avoid policy language in opening.",
+      "upset_or_frustrated": "Empathize before explaining. Summarize their concern back to them before responding. Offer clear path to resolution.",
+      "disappointed_or_neutral": "Professional and clear. Explain the situation factually. Offer next steps."
+    }
+  }
+}

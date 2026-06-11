@@ -1,0 +1,17 @@
+{
+  "complaint_id": "CMP-2026-01193",
+  "received_date": "2026-04-30",
+  "received_channel": "email",
+  "customer_name": "Brenda Alcott",
+  "customer_phone": "904-555-0318",
+  "customer_email": "brenda.alcott@email.com",
+  "policy_number": "POL-10031",
+  "claim_reference": "CLM-2026-00701",
+  "complaint_text": "I am absolutely furious with how my claim has been handled. I filed my claim over three weeks ago after my car was damaged in a parking lot hit and run. I uploaded all the photos you asked for, filed the police report, did everything right. And now I get a letter saying my claim is DENIED because you say I only have liability coverage and this isn't covered. I have been a customer for six years and I have NEVER had a claim before. Nobody ever explained to me that a hit and run in a parking lot wouldn't be covered. I feel completely misled. I want this decision reviewed immediately. If this isn't resolved I will be filing a complaint with the Florida Department of Insurance and consulting with an attorney. I expect a call back from a supervisor within 24 hours.",
+  "attachments_included": ["denial_letter_copy.pdf", "police_report.pdf"],
+  "customer_tenure_years": 6,
+  "prior_complaints": 0,
+  "assigned_adjuster": "T. Morrison",
+  "current_claim_status": "denied",
+  "denial_reason_on_file": "Coverage type liability_only does not include comprehensive or collision coverage for at-fault or unidentified party incidents"
+}
